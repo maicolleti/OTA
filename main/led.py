@@ -2,7 +2,7 @@ from machine import Pin
 from time import sleep
 
 
-def led():
+def blink_led():
 
     led_b = Pin(2, Pin.OUT)
     while True:
