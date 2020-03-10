@@ -7,4 +7,4 @@ def blink_led():
     led_b = Pin(2, Pin.OUT)
     while True:
         led_b.value(not led_b.value())
-        sleep(0.5)
+        sleep(0.7)
